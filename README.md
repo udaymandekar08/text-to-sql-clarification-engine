@@ -58,3 +58,30 @@ The project structure will evolve as development progresses.
 ## Project Status
 
 Initial project setup.
+
+## Current Implementation
+
+- Initial FastAPI application
+- Root endpoint for checking API availability
+- Automatically generated API documentation
+
+## Running Locally
+
+1. Create a Python virtual environment.
+2. Activate the virtual environment.
+3. Install dependencies:
+
+   `python -m pip install -r requirements.txt`
+
+4. Start the server:
+
+   `python -m uvicorn app.main:app --reload`
+
+5. Open `http://127.0.0.1:8000` in your browser.
+
+## Current Limitations
+
+The application currently provides only a basic API endpoint.
+
+SQL generation, ambiguity detection, clarification handling,
+and MySQL integration are planned for future development.
